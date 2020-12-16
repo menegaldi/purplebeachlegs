@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 32px;
-
+  font-size: 32px;
 }
 
 h2 {
@@ -24,6 +24,11 @@ h2 {
   justify-content: right;
   text-align: right;
 }
+
+.links-header p {
+  margin: 0%;
+}
+
 h1 {
   font-family: 'Monoton', cursive;
   font-size: 160px;
@@ -32,9 +37,11 @@ h1 {
   text-align: center;
   word-spacing: 60px;
 }
+
 h3 {
   font-weight: normal;
 }
+
 .content {
   /* background-color: #EDDDFF; */
   margin-left: 20vw;
@@ -48,7 +55,7 @@ h3 {
   font-style: normal;
 }
 
-.statement{
+.statement {
   margin-left: 20vw;
   margin-right: 20vw;
   height: 60vh;
@@ -75,11 +82,11 @@ h3 {
   /* height: 60vh; */
 }
 
-.cards{
+.cards {
   margin-left: 20vw;
   margin-right: 20vw;
   display: grid;
-  grid-template-columns: repeat(2,1.2fr);
+  grid-template-columns: repeat(2, 1.2fr);
   grid-column-gap: 32px;
   grid-row-gap: 32px;
   margin-bottom: 8vh;
@@ -102,7 +109,8 @@ h3 {
   padding-top: 40px;
   font-size: 24px;
 }
-.access{
+
+.access {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,8 +134,8 @@ h3 {
   margin-left: 20vw;
   margin-right: 20vw;
   display: grid;
-  grid-template-columns: repeat(3,1.2fr);
-  grid-template-rows: repeat(2,1.2fr);
+  grid-template-columns: repeat(3, 1.2fr);
+  grid-template-rows: repeat(2, 1.2fr);
   grid-column-gap: 32px;
   grid-row-gap: 32px;
   margin-bottom: 8vh;
@@ -161,4 +169,3 @@ h3 {
   align-items: center;
   text-align: center;
 }
-
