@@ -101,3 +101,44 @@ h3 {
   width: 100vw;
   height: 100vh;
 }
+
+.team {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  display: grid;
+  grid-template-columns: repeat(3,1.2fr);
+  grid-template-rows: repeat(2,1.2fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  margin-bottom: 8vh;
+}
+
+.team-mate {
+  background-color: #FFDDFC;
+  padding: 40px;
+}
+
+.poster {
+  padding-left: 20vw;
+  padding-right: 20vw;
+  margin-bottom: 8vh;
+}
+
+.poster img {
+  width: 100%;
+}
+
+.logo {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
