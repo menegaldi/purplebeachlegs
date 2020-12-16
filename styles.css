@@ -14,6 +14,14 @@ body {
   font-size: 32px;
 }
 
+.header a {
+  color: black;
+}
+
+.header a:hover {
+  color: #CA9AFF;
+}
+
 h2 {
   margin: 0%;
 }
