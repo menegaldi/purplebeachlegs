@@ -30,6 +30,7 @@ h1 {
   margin: 0px;
   color: #CA9AFF;
   text-align: center;
+  word-spacing: 60px;
 }
 h3 {
   font-weight: normal;
@@ -85,22 +86,33 @@ h3 {
 }
 
 .card-style {
-  background-color: #FFDDFC;
+  background-color: #AAFEE1;
   padding: 40px;
   margin: 0px;
   font-size: 20px;
 }
 
-.access{
+.wrapper-access {
   margin: 16px;
   background-color: #FFFEBC;
-  height: 60vh;
+}
+
+.wrapper-access p {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 24px;
+}
+.access{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .device {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 40px
 }
 
