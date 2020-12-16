@@ -133,6 +133,7 @@ h3 {
 }
 
 .viewport {
+  background-color: black;
   display: flex;
   width: 100vw;
   height: 100vh;
