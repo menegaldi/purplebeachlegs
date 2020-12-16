@@ -10,12 +10,13 @@ body {
   margin: 16px;
   display: flex;
   justify-content: space-between;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 32px;
 
 }
 
-
+h2 {
+  margin: 0%;
+}
 
 .links-header {
   display: flex;
@@ -94,6 +95,13 @@ h3 {
   margin: 16px;
   background-color: #FFFEBC;
   height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.device {
+  padding: 40px
 }
 
 .viewport {
